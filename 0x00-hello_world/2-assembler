@@ -1,17 +1,2 @@
 #!/bin/bash
 gcc $CFILE -s
--
--
--
--
--
-2-assembler [+]
-:
--
--
--
--
--
--
-[command line]
-:
