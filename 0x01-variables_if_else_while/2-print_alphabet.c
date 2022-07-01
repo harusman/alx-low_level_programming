@@ -14,7 +14,7 @@ for (ch = 97; ch <= 122; ch++)
 {
 putcha(ch);
 }
-putcha("\n");
+putcha(10);
 
 return(0);
 }
