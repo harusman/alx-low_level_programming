@@ -1,17 +1,16 @@
-#include "harusman.d"
+#include "main.h"
 /**
- * print_alphabet - print the alphabet in lowercase
+ * print_alphabet - function to print abc
  *
- * Return: void
+ * Return: 0
  */
 void print_alphabet(void)
 {
-	int c = 'a';
+	char c;
 
-	while (c <= 'z')
+	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
-		c++;
 	}
-	_putchar('\n');
+_putchar('\n');
 }
