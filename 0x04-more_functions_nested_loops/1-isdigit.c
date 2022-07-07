@@ -6,16 +6,11 @@
  *
  * Return: 1 if the number is a digit, 0 otherwise.
  */
-int _isupper(int c)
+int _isdigit(int c)
 {
-	int i;
+	if (c >= '0' && c <= '9')
+		return (1);
 
-	for (i = 65; i <= 90; i++)
-	{
-		if (i == c)
-		{
-			return (1);
-		}
-	}
-	return (0);
+	else
+		return (0);
 }
