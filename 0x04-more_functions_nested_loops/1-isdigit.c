@@ -1,8 +1,3 @@
-/*
- * File: 1-isdigit.c
- * Auth: Haruna Danladi Maina 
- */
-
 #include "main.h"
 
 /**
@@ -11,11 +6,16 @@
  *
  * Return: 1 if the number is a digit, 0 otherwise.
  */
-int _isdigit(int c)
+int _isupper(int c)
 {
-	if (c >= '0' && c <= '9')
-		return (1);
+	int i;
 
-	else
-		return (0);
+	for (i = 65; i <= 90; i++)
+	{
+		if (i == c)
+		{
+			return (1);
+		}
+	}
+	return (0);
 }
