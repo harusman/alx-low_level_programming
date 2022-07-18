@@ -10,11 +10,10 @@
  * Return: A pointer to the filled memory area @s.
  */
 void *_memset(char *s, char c, unsighed int n)
-{
-	unsigned int a;
 
+	unsigned int a;
+	{
 	for (a = 0; a < n; a++)
 	s[a] = b;
-
+	}
 	return (s);
-}
